@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormatSwitch matches snapshot for C 1`] = `
+<div
+  className="StyledBox-sc-13pk1d4-0 bIdaiR"
+>
+  <button
+    className="StyledButton-sc-323bzc-0 kphDHx"
+    id="c"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+    type="button"
+  >
+    °C
+  </button>
+  <div
+    className="StyledBox__StyledBoxGap-sc-13pk1d4-1 ffjnxm"
+  />
+  <button
+    className="StyledButton-sc-323bzc-0 kFNfEv"
+    id="f"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+    type="button"
+  >
+    °F
+  </button>
+</div>
+`;
+
+exports[`FormatSwitch matches snapshot for F 1`] = `
+<div
+  className="StyledBox-sc-13pk1d4-0 bIdaiR"
+>
+  <button
+    className="StyledButton-sc-323bzc-0 kFNfEv"
+    id="c"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+    type="button"
+  >
+    °C
+  </button>
+  <div
+    className="StyledBox__StyledBoxGap-sc-13pk1d4-1 ffjnxm"
+  />
+  <button
+    className="StyledButton-sc-323bzc-0 kphDHx"
+    id="f"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+    type="button"
+  >
+    °F
+  </button>
+</div>
+`;

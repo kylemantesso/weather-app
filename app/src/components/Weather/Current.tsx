@@ -1,0 +1,45 @@
+import React from "react";
+import moment from "moment";
+
+import { Box, Heading, Text } from "grommet";
+import { Icon } from "./Icon";
+import { Day } from "./Day";
+import {FormatType} from "../../context/AppContext";
+
+export const Current = ({
+  description,
+  currentTemp,
+  icon,
+  windSpeed,
+  windDirection,
+  humidity,
+    formatType
+}: {
+  description: string;
+  currentTemp?: number;
+  icon: string;
+  windSpeed: string;
+  windDirection: string;
+  humidity: number;
+  formatType: FormatType;
+}) => (
+  <Box direction="row">
+    <Box fill direction="row" gap="small">
+      <Icon icon={icon} description={description} />
+      <Heading size="medium" margin="none">
+        {currentTemp && `${currentTemp}°${formatType}`}
+      </Heading>
+    </Box>
+    <Box fill>
+      <Text>
+        Humidity: <Text weight="bold">{Math.round(humidity)}%</Text>
+      </Text>
+      <Text>
+        Wind:{" "}
+        <Text weight="bold">
+          {windSpeed} {windDirection}
+        </Text>
+      </Text>
+    </Box>
+  </Box>
+);

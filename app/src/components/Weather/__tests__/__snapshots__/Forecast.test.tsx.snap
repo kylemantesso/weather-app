@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Forecast matches snapshot 1`] = `
+<div
+  className="StyledBox-sc-13pk1d4-0 cxtNjs"
+>
+  <div
+    className="StyledGrid-sc-1wofa1l-0 lgHuga"
+  >
+    <div
+      className="StyledBox-sc-13pk1d4-0 fHyGHh"
+    >
+      <span
+        className="StyledText-sc-1sadyjn-0 bDBJwM"
+        size="small"
+      >
+        Today
+      </span>
+      <div
+        className="StyledBox__StyledBoxGap-sc-13pk1d4-1 liuKJs"
+      />
+      <img
+        alt="Light rain"
+        height="60px"
+        src="https://www.metaweather.com/static/img/weather/lr.svg"
+      />
+      <div
+        className="StyledBox__StyledBoxGap-sc-13pk1d4-1 liuKJs"
+      />
+      <div
+        className="StyledBox-sc-13pk1d4-0 bIdaiR"
+      >
+        <span
+          className="StyledText-sc-1sadyjn-0 bDBJwM"
+          size="small"
+        >
+          34
+          °
+        </span>
+        <div
+          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 cPZcyD"
+        />
+        <span
+          className="StyledText-sc-1sadyjn-0 hncrgS"
+          size="small"
+        >
+          12
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      className="StyledBox-sc-13pk1d4-0 fHyGHh"
+    >
+      <span
+        className="StyledText-sc-1sadyjn-0 bDBJwM"
+        size="small"
+      >
+        Sunday
+      </span>
+      <div
+        className="StyledBox__StyledBoxGap-sc-13pk1d4-1 liuKJs"
+      />
+      <img
+        alt="Clear"
+        height="60px"
+        src="https://www.metaweather.com/static/img/weather/c.svg"
+      />
+      <div
+        className="StyledBox__StyledBoxGap-sc-13pk1d4-1 liuKJs"
+      />
+      <div
+        className="StyledBox-sc-13pk1d4-0 bIdaiR"
+      >
+        <span
+          className="StyledText-sc-1sadyjn-0 bDBJwM"
+          size="small"
+        >
+          30
+          °
+        </span>
+        <div
+          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 cPZcyD"
+        />
+        <span
+          className="StyledText-sc-1sadyjn-0 hncrgS"
+          size="small"
+        >
+          15
+          °
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
