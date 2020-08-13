@@ -7,7 +7,7 @@ import { ILocationResult } from "../../types/weather";
 
 const defaultOptions: string[] = [];
 
-export const Search = () => {
+export const Search: React.FC = () => {
   const [options, setOptions] = useState(defaultOptions);
   const [locationQuery, setLocationQuery] = useState("");
   const [foundLocations, setFoundLocations] = useState<ILocationResult[]>([]);

@@ -37,4 +37,3 @@ export const WeatherWidget: React.FC<{
     </Box>
   );
 };
-

@@ -3,7 +3,9 @@ import React from "react";
 import { Box, Button } from "grommet";
 import { FormatType, useAppContext } from "../../context/AppContext";
 
-export const FormatSwitch = ({ formatType }: { formatType: FormatType }) => {
+export const FormatSwitch: React.FC<{ formatType: FormatType }> = ({
+  formatType,
+}) => {
   const { setFormatType } = useAppContext();
   return (
     <Box direction="row" gap="small">

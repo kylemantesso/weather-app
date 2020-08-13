@@ -5,15 +5,11 @@ import { Box, Heading, ResponsiveContext, Text } from "grommet";
 import { FormatSwitch } from "./FormatSwitch";
 import { FormatType } from "../../context/AppContext";
 
-export const Header = ({
-  location,
-  formatType,
-  current,
-}: {
+export const Header: React.FC<{
   location: string;
   formatType: FormatType;
   current: string;
-}) => {
+}> = ({ location, formatType, current }) => {
   const size = useContext(ResponsiveContext);
   return (
     <Box direction="row-responsive" fill justify="between" gap="small">

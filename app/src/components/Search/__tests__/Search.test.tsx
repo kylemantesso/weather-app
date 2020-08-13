@@ -2,13 +2,13 @@ import React from "react";
 import renderer from "react-test-renderer";
 
 import * as AppContext from "../../../context/AppContext";
-import {Search} from "../Search";
+import { Search } from "../Search";
 
 jest.mock("../../../context/AppContext");
 const mockAppContext = AppContext as jest.Mocked<typeof AppContext>;
 const mockSetLocation = jest.fn();
 mockAppContext.useAppContext.mockReturnValue({
-  setLocation: mockSetLocation
+  setLocation: mockSetLocation,
 });
 
 describe("Search", () => {

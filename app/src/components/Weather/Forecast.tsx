@@ -4,7 +4,7 @@ import { Box, Grid, ResponsiveContext } from "grommet";
 import { Day } from "./Day";
 import { IDay } from "../../types/weather";
 
-export const Forecast = ({ forecasts }: { forecasts: IDay[] }) => (
+export const Forecast: React.FC<{ forecasts: IDay[] }> = ({ forecasts }) => (
   <Box pad={{ left: "medium", right: "medium", top: "medium" }}>
     <Grid columns="xsmall" align="center">
       {forecasts.map((forecast, ix) => (
