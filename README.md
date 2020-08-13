@@ -1,6 +1,8 @@
 # Weather App
 Search for your location and display the current weather conditions as well as a forecast
 
+Demo: https://km-weather-app.web.app/
+
 ![Weather app](assets/demo.gif)
 
 ## Assumptions
